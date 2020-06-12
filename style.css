@@ -1,27 +1,327 @@
-.nav_container{    
-    display: flex;
-    background-color: #EDEEF0 ;
-    justify-content: flex-end;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.nav_container>div{    
-    padding: 15pt;     
+nav{    
+    background-color: #EDEEF0 ;
+    padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav_container{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;       
+}
+
+.menu{
+    display: inline-flex;
+}
+
+.menu div{    
+    margin: 0 20px;
+    font-size: large;
+    cursor: pointer;
+    padding: 15pt;  
 }
 
 .prograd_name{    
-    display: flex;
-    background-color: #EDEEF0 ;
-    justify-content: flex-start;
-    position: absolute;
-    padding: 14pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #F05338;
     font-weight: bold;
     font-size: large;    
 }
 
-.contact{    
-    background-color:#F05338;
+.menu div:focus{
+    background-color: #F05338;    
+    color: white;
+    outline: none;
+}
+
+.menu div:hover{
+    background: #F05338;
+    color: white;
+}
+
+.second_section{    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: black;    
+    height: 300pt;
     
+}
+
+.second_section p{  
+    color: #B4B3B4;
+    padding-top: 120pt;
+    padding-right: 42%; 
+   padding-bottom: 20px; 
+}
+
+.second_section h1{
+    color: white;
+    font-weight: normal;
+    margin-top: -20px;
+    margin-left: -90px;
+}
+
+.third_section{
+    background-color: #EDEEF0;
+    height: 450pt;
+    padding-top: 100pt;
+    padding-left: 100pt;
+}
+
+.profilepic{       
+    width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+    
+}
+
+.profilepic img{        
+    width: 100%;
+    height: auto;    
+}
+
+#myname{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-weight: bold;
+    font-size: x-large;
+    text-align:center;
+    padding-top: -300pt;
+    margin-top: -180pt;
+    margin-right: 300pt;
+}
+
+.caption_content p{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding-top: 6px; 
+    padding-left: 420px;
+}
+
+#btn_resume_download{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EDEEF0 ;
+    background-color: #F05338;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    border-color:#F05338 ; 
+    border-width: 0px;  
+    margin-left: 420px;       
+}
+
+#btn_resume_download:hover{
+    background-color: teal;
+    outline: none;
+}
+
+#btn_resume_download:focus{
+    background-color: teal;
+}
+
+.bg_image img{
+    height: 500px;
+    width:1518px;         
+}
+
+
+.portfolio h3{   
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-top: -350pt;
+}
+
+.portfolio p{
+    color: #EDEEF0;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;        
+}
+
+hr.under_line{
+    position:absolute;    
+    border-top: 3px solid #EDEEF0;
+    text-align: center;
+    border-width: 1px;
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 35%;
+}
+
+.div_1{
+    position: absolute;
+    background-color: white;
+    height: 180px;
+    width: 250px;
+    margin-top: 7%;
+    margin-left: 25%;
+    border-radius: 10pt;
+}
+
+.div_2{
+    position: absolute;
+    background-color: white;
+    height: 180px;
+    width: 250px;
+    margin-top: 7%;
+    margin-left: 58%;
+    border-radius: 10pt;
+}
+.code_icon1{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 42%;
+    height: 40px;
+    width: 40px;
+}
+
+.code_icon2{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 40%;
+    height: 40px;
+    width: 40px;
+}
+
+.div1_heading{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25%;
+    margin-left: 21%;
+    font-size: medium;
+}
+
+.div2_heading{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-top: 25%;
+    margin-left: 21%;
+}
+
+.div_1 p{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 40%;
+    margin-left: 18%;
+}
+
+.div_2 p{
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 40%;
+    margin-left: 21%
+}
+
+.fourth_section{    
+    background-color: #EDEEF0;
+    height: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 300px;
+}
+
+.fourth_section h3{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+    padding-top: 10%;  
+    margin-left: -60px;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+
+.technical_skills h5{
+    margin-top: 5%;
+    margin-left: 16%;
+    font-weight: bold;
+}
+
+#html_skill{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.progress_bar{
+    width: 25%;
+    margin-top:10px;
+    margin-left: 10%;
+}
+
+#css_skill{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+#jq_skill{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.languages h5{
+    margin-top: -366px;
+    margin-left: 70%;
+    font-weight: bold;
+}
+
+#tamil_lang{  
+    margin-top: 35px;
+    margin-left: 62%;
+}
+
+.lang_progress_bar{
+    width: 25%;
+    margin-top: 14px;
+    margin-left: 62%;
+}
+
+#eng_lang{
+    margin-top: 16px;
+    margin-left: 62%;
+}
+
+.fifth_section{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: black;    
+    height: 350pt;
+}
+
+.fifth_section h3{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 45%;
+    color: white;
+}
+
+.fifth_section input{
+    width:25%;
+}
+
+#name_textbox{
+    margin-top: 10%;      
+}
+
+#send_msg{
+    width: 10%;
+    background-color: #F05338;
+    color: #EDEEF0;
+    outline: none;
+    border-width: 0;
+}
+
+#send_msg:focus{
+    background-color: teal;
+    outline: none;
+}
+
+#send_msg:hover{
+    background-color: teal;
 }

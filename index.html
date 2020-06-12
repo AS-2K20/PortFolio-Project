@@ -2,18 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    <div class="prograd_name">Amudhan S</div>
-    <nav class="nav_container">       
-        <div class="home">HOME</div>
-        <div class="bio">BIO</div>
-        <div class="portfolio">PORTFOLIO</div>
-        <div class="skills">SKILLS</div>
-        <div class="contact">CONTACT</div>
+    <nav> 
+    <div class="nav_container">
+    <div class="prograd_name">Amudhan S</div>     
+    <div class="menu"> 
+        <div class="home"      tabindex="1">HOME</div>
+        <div class="bio"       tabindex="2">BIO</div>
+        <div class="portfolio" tabindex="3">PORTFOLIO</div>
+        <div class="skills"    tabindex="4">SKILLS</div>
+        <div class="contact"   tabindex="5">CONTACT</div>
+    </div>
+    </div>
     </nav>
+    <div class="second_section">
+        <p>I BELIEVE IN</p>
+        <h1>EAT (); SLEEP(); CODE(); GAME(); REPEAT();</h1>
+    </div>
+    <div class="third_section">
+        <div class="profilepic">
+            <img src="assets/IMG_20200607_140507 (2).jpg" alt="Profile Photo">
+        </div>
+        <div>
+            <p id="myname">Amudhan S</p><br><br>
+            <div class="caption_content">
+                <p>I am a technology geek who just graduated the Master's Degree in Software System. 
+                    Recently, I have developed some meticulous tendenacies towards the work.
+                    I have been a good listener since my childhood days. Being polite and calm is my key character.<br><br><br>
+                    Recently, I joined the Full Stack Developer ProGrad program at FacePrep. 
+                    With the support and guidance of the FacePrep Mentors, I developed my knowledge in HTML, CSS and JS.<br><br><br>
+                    Presently, I am on the look out for the role of productive software developer.
+                </p>  
+            </div><br><br><br>
+            <input id="btn_resume_download" tabindex="6" type="button" value="Download My Resume">
+        </div>
+    </div>
+    <div>
+        <div class="bg_image">
+            <img src="assets/Black_Background.jpg" alt="Background Image">
+        </div>
+        <div class="portfolio">
+            <h3>PORTFOLIO</h3><br><br>
+            <p>Some of my best projects so far</p>
+            <hr class="under_line">            
+        </div>
+        <div class="div_portfolio">
+            <div class="div_1">
+                <img class="code_icon1" src="assets/image.png" alt="Code Icon">
+                <h5 class="div1_heading">SL MANAGEMENT</h5>
+                <p>A window application for staff leave management</p>
+            </div>
+            <div class="div_2">
+                <img class="code_icon2" src="assets/image.png" alt="Code Icon">
+                <h5 class="div2_heading">EMAIL BLASTER</h5>
+                <p>A web application for sending bulk emails</p>
+            </div>
+        </div>
+    </div>
+    <div class="fourth_section">
+        <h3>SKILLS</h3>
+        <div class="technical_skills">
+            <h5>TECHNICAL SKILLS</h5><br>
+            <p id="html_skill">HTML</p>
+            <progress class="progress_bar" value="60" max="100"></progress>
+            <p id="css_skill">CSS</p>
+            <progress class="progress_bar" value="60" max="100"></progress>
+            <p id="css_skill">JAVASCRIPT</p>
+            <progress class="progress_bar" value="60" max="100"></progress>
+            <p id="jq_skill">JQuery</p>
+            <progress class="progress_bar" value="60" max="100"></progress>
+        </div>
+        <div class="languages">
+            <h5>LANGUAGES</h5><br>
+            <p id="tamil_lang">TAMIL</p>
+            <progress class="lang_progress_bar" value="60" max="100"></progress>
+            <p id="eng_lang">ENGLISH</p>
+            <progress class="lang_progress_bar" value="60" max="100"></progress>
+        </div>
+    </div>
+    <div class="fifth_section">
+        <h3>CONTACT</h3>
+        <input type="text" id="name_textbox" value="ENTER YOUR NAME" tabindex="7"><br><br><br>
+        <input type="text" value="ENTER YOUR EMAIL" tabindex="8"><br><br><br>
+        <input type="text" value="ENTER YOUR MESSAGE" tabindex="9"><br><br><br><br>
+        <input type="submit" id="send_msg" value="Send Message" tabindex="10">
+    </div>
 </body>
 </html>
